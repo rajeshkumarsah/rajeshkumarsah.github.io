@@ -1,0 +1,173 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body,html {
+    background:#29323c;
+}
+/*--------------timeline-----------------*/
+.journey-style{
+   width: 600px;
+   margin:0 auto; 
+}
+ .journey-style .timeline {
+     position: relative;
+     padding: 21px 0px 10px;
+     margin-top: 50px;
+     margin-bottom: 30px;
+}
+
+ .journey-style .timeline .line {
+     position: absolute;
+     width: 1px;
+     display: block;
+     background: currentColor;
+     top: 0px;
+     bottom: 0px;
+     margin-left: 32px;
+     color: rgba(240, 97, 143, 0.28);
+}
+
+ .journey-style .timeline .separator {
+     border-top: 1px solid currentColor;
+     padding: 5px;
+     padding-left: 40px;
+     font-style: italic;
+     font-size: .9em;
+     margin-left: 30px;
+}
+ .journey-style .timeline .line::before {
+     top: -4px;
+}
+ .journey-style .timeline .line::before{
+     content: '';
+     position: absolute;
+     left: -6px;
+     width: 13px;
+     height: 13px;
+     display: block;
+     border-radius: 50%;
+     background: #15b2ab;
+}
+ .journey-style .timeline .panel {
+     position: relative;
+     margin: 10px 0px 21px 70px;
+     clear: both;
+}
+ .journey-style .timeline .panel::before {
+     position: absolute;
+     display: block;
+     top: 8px;
+     left: -24px;
+     content: '';
+     width: 0px;
+     height: 0px;
+     border: inherit;
+     border-width: 12px;
+     border-top-color: transparent;
+     border-bottom-color: transparent;
+     border-left-color: transparent;
+}
+ .hover-color-link span:hover{
+     color: #fff;
+     background-image: linear-gradient(60deg, #29323c 0%, #485563 100%) !important;
+     transition: 0.5s;
+     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+     transition: .2s ease-out;
+}
+ .hover-color-link:hover{
+     color: #fff !important;
+}
+ .journey-style .timeline .panel .panel-heading.icon * {
+     font-size: 20px;
+     vertical-align: middle;
+     line-height: 40px;
+}
+ .journey-style .timeline .panel .panel-heading.icon {
+     position: absolute;
+     left: -60px;
+     display: block;
+     width: 42px;
+     height: 42px;
+     padding: 0px;
+     border-radius: 50%;
+     text-align: center;
+     float: left;
+     border-color: transparent;
+     transition: 1.3s;
+}
+ .journey-style .timeline .panel-outline {
+     border-color: transparent;
+     background: transparent;
+     box-shadow: none;
+}
+ .journey-style .journey-style .timeline .panel-outline .panel-body {
+     padding: 10px 0px;
+}
+ .journey-style .timeline .panel-outline .panel-heading:not(.icon), .journey-style .timeline .panel-outline .panel-footer {
+     display: none;
+}
+ .journey-style .panel-heading{
+     background-color:#15b2ab;
+     color:#ffffff;
+}
+ .journey-style .date-extend .panel-heading{
+     background-color:#f06292;
+     color:#ffffff;
+}
+ .journey-style .panel-body {
+     padding: 0px;
+}
+ .journey-style .panel-body h3{
+     margin: 0px;
+     text-align: left;
+     margin-left: 1em;
+     margin-top: -0.3em;
+     padding-bottom: 0.5em;
+     line-height: 1.3em;
+}
+ .journey-style .panel-body h3 time{
+     font-style: italic;
+     color: #ff6e41;
+     font-size: 15px;
+     font-family: 'Lato';
+}
+ .journey-style .panel-body h3 p{
+     font-size: 15px;
+     color: #fff;
+     font-weight: 100;
+     font-family: 'Lato';
+}
+ .journey-style .panel-outline{
+     cursor: crosshair;
+}
+ .journey-style .panel-outline:hover .panel-heading.icon{
+     -webkit-transform: scale(1.7,1.7) rotate(45deg);
+     -moz-transform: scale(1.7,1.7) rotate(45deg);
+     -ms-transform: scale(1.7,1.7) rotate(45deg);
+     -o-transform: scale(1.7,1.7) rotate(45deg);
+     transform: scale(1.7,1.7) rotate(45deg);
+     transition: background 0.5s;
+     transition: 0.5s;
+}
+ .journey-style .timeline .year-time{
+     position: relative;
+     left: -45px;
+     color: #fff;
+     top: 33px;
+     font-size: 16px;
+     float: left;
+     font-family: 'Josefin Sans', sans-serif;
+}
+ .journey-style .timeline .year-time1{
+     position: relative;
+     left: -45px;
+     color: #fff;
+     top: 33px;
+     font-size: 16px;
+     float: left;
+     font-family: 'Josefin Sans', sans-serif;
+}
+ 
